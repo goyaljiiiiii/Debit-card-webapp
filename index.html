@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="A full-screen flipping debit card UI concept built with HTML and CSS."
+        />
+        <title>Flipping Debit Card UI</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <main class="app">
+            <section class="stage" aria-label="Debit card preview">
+                <article class="panel panel-left">
+                    <p class="panel-label">Account</p>
+                    <h2>Premium Banking</h2>
+                    <p>Balance</p>
+                    <h3>$ 24,380.25</h3>
+                </article>
+
+                <div class="container">
+                    <div class="card front-face">
+                        <header>
+                            <span class="logo">
+                                <img src="assets/images/logo.png" alt="MasterCard logo" />
+                                <h5>Master Card</h5>
+                            </span>
+                            <img src="assets/images/chip.png" alt="Card chip" class="chip" />
+                        </header>
+
+                        <div class="card-details">
+                            <div class="name-number">
+                                <h6>Card Number</h6>
+                                <h5 class="number">8050 2030 3020 5040</h5>
+                                <h5 class="name">Nandini goyal</h5>
+                            </div>
+
+                            <div class="valid-date">
+                                <h6>Valid Thru</h6>
+                                <h5>05/28</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card back-face">
+                        <h6>
+                            For customer service call +977 4343 3433 or email at
+                            mastercard@gmail.com
+                        </h6>
+                        <span class="magnetic-strip"></span>
+                        <div class="signature"><i>005</i></div>
+                        <h5>
+                            This is a concept UI card. Do not use real card details in
+                            screenshots or public demos.
+                        </h5>
+                    </div>
+                </div>
+
+                <article class="panel panel-right">
+                    <p class="panel-label">Card Type</p>
+                    <h2>Debit</h2>
+                    <p>Tap, swipe or insert chip</p>
+                    <span class="wifi-icon" aria-hidden="true"></span>
+                </article>
+
+                <p class="tip">Hover card to flip</p>
+            </section>
+        </main>
+    </body>
+</html>
